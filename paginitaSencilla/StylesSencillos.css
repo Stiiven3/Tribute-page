@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #087979;
+    
+}
+.Logo{
+ float: left;
+ margin: 10px auto;
+ cursor: pointer;
+}
+
+.Logo:hover{
+
+    transform: scale(1.8);
+}
+
+.banner{
+
+    width: 100%;
+    height: auto;
+   
+
+  
+    
+   
+}
+
+
+
+
+.Menu{
+    background-color:rgba(16, 150, 98, 0.3);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-bottom: 10px;
+    position:fixed;
+    width: 100%;
+    
+}
+
+
+.menu-nav{
+    list-style: none;
+  
+}
+
+.menu-nav__item{
+
+display: inline-block;
+margin: 20px auto ;
+
+}
+
+.menu-nav__item a{
+
+    color: #ffffff;
+    text-decoration: none;
+
+    margin:  0 20px ;
+    
+    
+    
+    
+}
+
+.menu-nav__item a:hover{
+
+    color: #aca904;
+}
+
+.menu-nav__item a:active{
+
+    color:rgb(197, 81, 4) ;
+}
+
+
+
+.casita::before{
+
+    content:"🏠";
+}
+
+.sombrerito::before{
+
+    content:"☠";
+}
+
+.contacto::before{
+
+    content:"📢";
+}
+.blog::before{
+
+    content:"📜";
+}
+
+.descri{
+
+    background:linear-gradient(rgb(2, 98, 108,0.9), rgb(50,30,60,0.9 ),rgb(153, 43, 68,0.9));
+    text-align: left;
+   
+
+}
+
+
+.descri2{
+
+    background:linear-gradient(rgb(2, 98, 108,0.9), rgb(50,30,60,0.9 ),rgba(43, 153, 80, 0.9));
+    text-align: left;
+
+}
+
+.descri3{
+
+    background:linear-gradient(rgb(2, 98, 108,0.9), rgb(50,30,60,0.9 ),rgba(151, 153, 43, 0.9));
+    text-align: left;
+
+}
+
+footer{
+
+    background-color:rgb(5, 46, 65);
+    
+    
+    
+   
+
+}
+
+
+.SDe{
+
+    color:#fff;
+    font-size: 2em;
+    margin-top: 100px ;
+
+}
+
+.NameD,.SDe{
+
+   color: #ffffff;
+   font-family: sans-serif;
+   
+   
+    
+    
+}
+
+.VideoF.Luffy{
+
+     display: flex;
+      
+}
+
+h2{
+
+    font-size: 2em;
+}
+
+.sec,.sec1,.sec2{
+
+    display: inline-block;
+    text-align: center;
+  
+    font-size: 2em;
+    width: auto;
+ 
+
+
+}
+
+
+.sec1{
+  
+   
+    color:  #fff;;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.alinear{
+
+    margin:0 5px;
+}
+
+.text{
+
+    text-align: center;
+    
+}
+
+
+
+
+
